@@ -1,0 +1,29 @@
+main {
+   display: flex;
+   flex-wrap: wrap;
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+main .portfolio-item{
+   width: 100%;
+   text-align:center;
+   position: relative;
+}
+
+main .portfolio-item img{
+   width: 100%;
+}
+
+main .portfolio-item.threecol img{
+   width: 33.3%;
+}
+
+
+main .portfolio-item .portfolio-caption {
+   position: absolute;
+   bottom: 30px;
+   left: 80%;
+   text-align: right;
+}
