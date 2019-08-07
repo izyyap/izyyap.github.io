@@ -1,0 +1,70 @@
+main{
+   display: flex;
+   align-content: center;
+}
+
+section.twocol {
+   width: 50%;
+}
+
+section.twocol img{
+   margin-top: 20px;
+   width: 100%;
+}
+
+#contact-img-container{
+   z-index: 0;
+   position: absolute;
+   margin-top: 0;
+   right: 0;
+   top: 100px;
+   height: 80vh;
+   width: auto;
+}
+
+#contact-img{
+   margin-top: 0;
+   height: 100%;
+   width: auto;
+}
+
+section.twocol p{
+   margin:20px 55px;
+}
+
+#contact-caption {
+   position: relative;
+    bottom: 80px;
+    left: 200px;
+   color: black;
+   font-family: 'Roboto-Condensed', sans-serif;
+   font-style: oblique;
+   font-size: 14px;
+}
+
+
+@media (max-width: 768px){
+   main {
+      background-color: #fff8;
+      position: relative;
+      z-index: 1;
+      flex-direction: column-reverse;
+   }
+   h3{
+      position: relative;
+      z-index: 1;
+   }
+   section.twocol {
+   width: 100%;
+   height: auto;
+   }
+   section.twocol img{
+      width: 100%;
+   }
+
+   section.twocol p{
+      margin:20px 55px;
+   }
+
+
+}
